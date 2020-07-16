@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-const Productdetails = ({ cartProps }) => {
+export const Productdetails = ({ cartProps }) => {
 	let cartItems = [];
 
 	Object.keys(cartProps.products).forEach((items) => {

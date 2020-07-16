@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { selectProduct, selectAll } from '../actions/selectProduct';
 import { deleteProduct } from '../actions/deleteProduct';
 
-class ProductList extends Component {
+export class ProductList extends Component {
 	render() {
 		let cartItems = [];
 
@@ -18,6 +18,7 @@ class ProductList extends Component {
 					<td>
 						<input
 							type='checkbox'
+							id={items.name}
 							onChange={() => this.props.selectProduct(items.name)}
 							checked={items.isSelected}
 						/>
