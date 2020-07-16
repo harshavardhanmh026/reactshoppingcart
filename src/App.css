@@ -1,0 +1,23 @@
+.currency {
+    padding-top: 25px;
+}
+
+.item-selected-div{
+    padding-top: 30px;
+}
+
+.info-badge-width{
+    width: 150px;
+}
+
+.header-color{
+    background-color: azure;
+}
+
+.container-padding{
+    padding-top: 35px;
+}
+
+.delete-icon{
+    cursor: pointer;
+}
